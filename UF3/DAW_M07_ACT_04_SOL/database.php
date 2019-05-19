@@ -1,7 +1,7 @@
 <?php
 	$server = "localhost";
 	$user = "root";
-	$pass = "12345";
+	$pass = "";
 	$db = "ucoc_act05";
 
 	$con = mysqli_connect($server, $user, $pass, $db) or die ("Error al conectar con la base de datos");
